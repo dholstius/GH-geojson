@@ -11,8 +11,7 @@ This example is pasted directly from https://docs.github.com/en/get-started/writ
           [-90,35],
           [-90,35],
           [-85,35],
-          [-85,30],
-          [-90,30]
+          [-85,30]
       ]
   ]
 }
@@ -79,3 +78,5 @@ Still no luck. Maybe it needs more?
   ]
 }
 ```
+
+What's needed to make this work?
