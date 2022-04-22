@@ -46,6 +46,8 @@ OK, let's just give it the coordinates that match the picture:
 
 Still no luck. Maybe it needs more?
 
+(Edit: solved! Guess it needs to be a `FeatureCollection`?)
+
 ```geojson
 {
   "type": "FeatureCollection",
@@ -72,5 +74,3 @@ Still no luck. Maybe it needs more?
   ]
 }
 ```
-
-What's needed to make this work?
