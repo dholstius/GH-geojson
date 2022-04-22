@@ -44,3 +44,38 @@ OK, let's just give it the coordinates that match the picture:
   ]
 }
 ```
+
+Still no luck. Maybe it needs more?
+
+```geojson
+{
+  "type": ["FeatureCollection"],
+  "crs": {
+    "type": ["name"],
+    "properties": {
+      "name": ["urn:ogc:def:crs:OGC:1.3:CRS84"]
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [-90,35],
+              [-90,30],
+              [-85,30],
+              [-85,35],
+              [-90,35]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
